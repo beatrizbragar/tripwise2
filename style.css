@@ -1,0 +1,29 @@
+/* HERO (no airplane background) */
+.hero {
+  background-color: #e9ffe9; /* soft light green */
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 55px;
+  color: #0b6e36;
+  margin: 0;
+}
+
+.hero h2 {
+  font-size: 22px;
+  color: #0b5930;
+  margin-top: 10px;
+}
+
+/* Remove overlay class entirely */
+.overlay {
+  display: none;
+}
